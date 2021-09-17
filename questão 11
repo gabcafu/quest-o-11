@@ -1,0 +1,17 @@
+string altura  ;
+            if (comboBox1.SelectedIndex == 0)
+            {
+                peso = "16 toneladas";
+                altura = "4 metros";
+            }
+            else if (comboBox1.SelectedIndex == 1)
+            {
+                peso = "20 toneladas";
+                altura = "6 metros";
+            }
+            else 
+            {
+                peso = "25 toneladas";
+                altura = "8 metros";
+            }
+             MessageBox.Show("A altura permitida nessa ponte é " + altura + "e o peso" + peso);
